@@ -1017,16 +1017,9 @@ dependencies = [
 ]
 
 [[package]]
-name = "hyperborea-server"
-version = "0.1.0"
-dependencies = [
- "hyperborealib",
- "tokio",
-]
-
-[[package]]
 name = "hyperborealib"
 version = "0.1.0"
+source = "git+https://github.com/HyperboreaHQ/hyperborealib#7fbc51174006e0502189e515ded7eaf3456d832d"
 dependencies = [
  "aes-gcm",
  "async-trait",
@@ -1048,17 +1041,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "hyperbox"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "env_logger",
- "hyperborealib",
- "log",
- "tokio",
-]
-
-[[package]]
 name = "hyperchat"
 version = "0.1.0"
 dependencies = [
@@ -1076,6 +1058,7 @@ dependencies = [
 [[package]]
 name = "hyperelm"
 version = "0.1.0"
+source = "git+https://github.com/HyperboreaHQ/hyperelm#c832bfaedc56c5fbe4ca43c4212e3a30016aae5a"
 dependencies = [
  "async-trait",
  "hyperborealib",
