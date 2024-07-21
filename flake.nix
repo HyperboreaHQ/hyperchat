@@ -18,6 +18,7 @@
 
                     gcc
                     cmake
+                    pkg-config
                 ];
                 
                 buildInputs = with pkgs; [
